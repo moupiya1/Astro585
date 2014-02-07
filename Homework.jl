@@ -81,3 +81,38 @@ D=read(fr,Float64);\
 end\
 @elapsed x=read_binary()\
 }
+
+
+#2f.
+function write_element()
+    fin=open("write_element.txt","w+");
+    A=randn(1000);
+    writecsv(fin,A);
+    close(fin);
+    return A #Just to print the values of A to check later with the read in values.
+end
+
+function read_element(i::Int)
+    fr=open("write_element.txt","r");
+C=readcsv(fr,Float64);
+    close(fr);
+    return C[i]
+end
+
+function write_binary_element()
+    fin=open("writebinaryelement.bin","w+");
+    B=randn(1000);
+    write(fin,B);
+    close(fin);
+    #return B; #Just to print the values of A to check later with the read in values.
+end
+
+function read_binary_element(i::Int)
+    fr=open("writebinaryelement.bin","r+");
+D=read(fr,Float64);
+    close(fr);
+    #return D[i];
+end
+
+@elapsed x=read_element(500)
+@elapsed x=read_binary_element(500)
