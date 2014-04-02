@@ -1,0 +1,23 @@
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'git'
+Warning: redefining constant CPU_CORES
+Warning: imported binding for eta overwritten in module Main
+Warning: imported binding for scale overwritten in module Main
+INFO: Nothing to be done
+INFO: METADATA is out-of-date — you may not have the latest version of Distributions
+INFO: Use `Pkg.update()` to get the latest versions of your packages
+exception on 1: ERROR: PyPlot not found
+ in require at loading.jl:39
+ in anonymous at multi.jl:1253
+ in run_work_thunk at multi.jl:590
+ in run_work_thunk at multi.jl:599
+ in anonymous at task.jl:6
+while loading /gpfs/home/mum316/astro585/Lab7/HW6_Q2_planet_populations_once.jl, in expression starting on line 5
+ERROR: function eval_model_on_grid_map does not accept keyword arguments
+ in include_from_node1 at loading.jl:120
+while loading /gpfs/home/mum316/astro585/Lab7/HW7_Q3.jl, in expression starting on line 44
+
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'

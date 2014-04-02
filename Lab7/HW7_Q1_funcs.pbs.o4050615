@@ -1,0 +1,70 @@
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'git'
+Warning: Permanently added 'lionxf181,10.128.10.181' (RSA) to the list of known hosts.
+Warning: Permanently added 'lionxf180,10.128.10.180' (RSA) to the list of known hosts.
+Warning: Permanently added 'lionxf176,10.128.10.176' (RSA) to the list of known hosts.
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+exception on exception on exception on 2: 4: 3: ERROR: ERROR: ERROR: could not open file timeloop.txt
+ in could not open file timeloop.txteval at /gpfs/work/i/install/julia/julia/base/sysimg.jl:4
+ in anonymous at multi.jl:1326
+ in anonymous at multi.jl:827
+ in run_work_thunk at multi.jl:575
+ in run_work_thunk at multi.jl:584
+ in anonymous at task.jl:88
+
+ in could not open file timeloop.txteval at /gpfs/work/i/install/julia/julia/base/sysimg.jl:4
+ in anonymous at multi.jl:1326
+ in anonymous at multi.jl:827
+ in run_work_thunk at multi.jl:575
+ in run_work_thunk at multi.jl:584
+ in anonymous at task.jl:88
+
+ in eval at /gpfs/work/i/install/julia/julia/base/sysimg.jl:4
+ in anonymous at multi.jl:1326
+ in anonymous at multi.jl:827
+ in run_work_thunk at multi.jl:575
+ in run_work_thunk at multi.jl:584
+ in anonymous at task.jl:88
+exception on 2: ERROR: could not open file timemap.txt
+ in eval at /gpfs/work/i/install/julia/julia/base/sysimg.jl:4
+ in anonymous at multi.jl:1326
+ in anonymous at multi.jl:827
+exception on 4: ERROR: could not open file timemap.txt in 
+ in eval at /gpfs/work/i/install/julia/julia/base/sysimg.jl:4
+ in run_work_thunk at anonymous at multi.jl:1326
+ in anonymous at multi.jl:827
+ in run_work_thunkmulti.jl at multi.jl:575
+ in run_work_thunk at multi.jl::575584
+ in anonymous at task.jl:88
+
+ in exception on 3: ERROR: could not open file timemap.txt
+ in eval at /gpfs/work/i/install/julia/julia/base/sysimg.jl:4
+ in anonymous at multi.jl:1326
+ in anonymous at multi.jl:827
+ in run_work_thunk at multi.jl:575
+ in run_work_thunk at multi.jl:584
+ in anonymous at task.jl:88
+run_work_thunk at multi.jl:584
+ in anonymous at task.jl:88
+# myid= 1
+# nprocs= 4
+# nworkers= 3
+Julia says welcome from proc 2 w/ hostname lionxf181.hpc.rcc.psu.edu
+Julia says welcome from proc 3 w/ hostname lionxf180.hpc.rcc.psu.edu
+Julia says welcome from proc 4 w/ hostname lionxf176.hpc.rcc.psu.edu
+elapsed time: 0.288244098 seconds
+The time taken is 
+ERROR: no method isfinite((Float64,Float64))
+while loading /gpfs/home/mum316/astro585/Lab7/HW7_Q1_funcs.jl, in expression starting on line 60
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'

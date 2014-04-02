@@ -1,0 +1,9 @@
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'git'
+ERROR: check_pbs_tasknum_one not defined
+while loading /gpfs/home/mum316/astro585/Lab7/HW7_Q1_funcs.jl, in expression starting on line 2
+
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'

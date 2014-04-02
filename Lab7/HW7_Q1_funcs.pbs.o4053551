@@ -1,0 +1,26 @@
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'git'
+Warning: Permanently added 'lionxf92,10.128.10.92' (RSA) to the list of known hosts.
+Warning: Permanently added 'lionxf92,10.128.10.92' (RSA) to the list of known hosts.
+Warning: Permanently added 'lionxf87,10.128.10.87' (RSA) to the list of known hosts.
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ERROR: no method writedlm(IOStream, (Float64,Float64), Char)
+ in writecsv at datafmt.jl:240
+while loading /gpfs/home/mum316/astro585/Lab7/HW7_Q1_funcs.jl, in expression starting on line 60
+# myid= 1
+# nprocs= 4
+# nworkers= 3
+Julia says welcome from proc 2 w/ hostname lionxf92.hpc.rcc.psu.edu
+Julia says welcome from proc 3 w/ hostname lionxf92.hpc.rcc.psu.edu
+Julia says welcome from proc 4 w/ hostname lionxf87.hpc.rcc.psu.edu
+elapsed time: 0.259273138 seconds
+
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'

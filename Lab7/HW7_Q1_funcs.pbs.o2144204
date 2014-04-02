@@ -1,0 +1,23 @@
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'git'
+Warning: Permanently added 'lionxv17,10.128.15.17' (RSA) to the list of known hosts.
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+exception on 2: ERROR: could not open file writefile.txt
+ in eval at /gpfs/work/i/install/julia/julia/base/sysimg.jl:4
+ in anonymous at multi.jl:1326
+ in anonymous at multi.jl:827
+ in run_work_thunk at multi.jl:575
+ in run_work_thunk at multi.jl:584
+ in anonymous at task.jl:88
+# myid= 1
+# nprocs= 2
+# nworkers= 1
+Julia says welcome from proc 2 w/ hostname lionxv17.hpc.rcc.psu.edu
+
+ERROR: no method writecsv(IOStream, Float64, Float64)
+ in time_int_normal_pdf_functions at /gpfs/home/mum316/astro585/Lab7/HW7_Q1_funcs.jl:50
+while loading /gpfs/home/mum316/astro585/Lab7/HW7_Q1_funcs.jl, in expression starting on line 55
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'

@@ -1,0 +1,23 @@
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'git'
+Warning: Permanently added 'lionxf150,10.128.10.150' (RSA) to the list of known hosts.
+Warning: Permanently added 'lionxf74,10.128.10.74' (RSA) to the list of known hosts.
+Warning: Permanently added 'lionxf150,10.128.10.150' (RSA) to the list of known hosts.
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+# myid= 1
+# nprocs= 4
+# nworkers= 3
+Julia says welcome from proc 2 w/ hostname lionxf150.hpc.rcc.psu.edu
+Julia says welcome from proc 3 w/ hostname lionxf150.hpc.rcc.psu.edu
+Julia says welcome from proc 4 w/ hostname lionxf74.hpc.rcc.psu.edu
+elapsed time: 0.268202 seconds
+The time taken is 0.041494 0.095270
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'

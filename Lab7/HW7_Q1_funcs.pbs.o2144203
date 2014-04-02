@@ -1,0 +1,10 @@
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'git'
+ERROR: no method writecsv(IOStream, Float64, Float64)
+ in time_int_normal_pdf_functions at /gpfs/home/mum316/astro585/Lab7/HW7_Q1_funcs.jl:35
+while loading /gpfs/home/mum316/astro585/Lab7/HW7_Q1_funcs.jl, in expression starting on line 40
+
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'

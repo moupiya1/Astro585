@@ -1,0 +1,133 @@
+	.version 1.4
+	.target sm_10, map_f64_to_f32
+	// compiled with /gpfs/apps/cuda-rhel6/cuda/5.5/open64/lib//be
+	// nvopencc 4.1 built on 2013-07-17
+
+	//-----------------------------------------------------------
+	// Compiling /tmp/tmpxft_0000581d_00000000-9_normal_pdf_gpu.cpp3.i (/tmp/ccBI#.qE1CWe)
+	//-----------------------------------------------------------
+
+	//-----------------------------------------------------------
+	// Options:
+	//-----------------------------------------------------------
+	//  Target:ptx, ISA:sm_10, Endian:little, Pointer Size:64
+	//  -O3	(Optimization level)
+	//  -g0	(Debug level)
+	//  -m2	(Report advisories)
+	//-----------------------------------------------------------
+
+	.file	1	"<command-line>"
+	.file	2	"/tmp/tmpxft_0000581d_00000000-8_normal_pdf_gpu.cudafe2.gpu"
+	.file	3	"/gpfs/apps/x86_64-rhel6/gcc/4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/include/stddef.h"
+	.file	4	"/usr/global/cuda/5.5/bin/..//include/crt/device_runtime.h"
+	.file	5	"/usr/global/cuda/5.5/bin/..//include/host_defines.h"
+	.file	6	"/usr/global/cuda/5.5/bin/..//include/builtin_types.h"
+	.file	7	"/usr/global/cuda/5.5/bin/..//include/device_types.h"
+	.file	8	"/usr/global/cuda/5.5/bin/..//include/driver_types.h"
+	.file	9	"/usr/global/cuda/5.5/bin/..//include/surface_types.h"
+	.file	10	"/usr/global/cuda/5.5/bin/..//include/texture_types.h"
+	.file	11	"/usr/global/cuda/5.5/bin/..//include/vector_types.h"
+	.file	12	"/usr/global/cuda/5.5/bin/..//include/device_launch_parameters.h"
+	.file	13	"/usr/global/cuda/5.5/bin/..//include/crt/storage_class.h"
+	.file	14	"normal_pdf_gpu.cu"
+	.file	15	"/usr/global/cuda/5.5/bin/..//include/common_functions.h"
+	.file	16	"/usr/global/cuda/5.5/bin/..//include/math_functions.h"
+	.file	17	"/usr/global/cuda/5.5/bin/..//include/math_constants.h"
+	.file	18	"/usr/global/cuda/5.5/bin/..//include/device_functions.h"
+	.file	19	"/usr/global/cuda/5.5/bin/..//include/sm_11_atomic_functions.h"
+	.file	20	"/usr/global/cuda/5.5/bin/..//include/sm_12_atomic_functions.h"
+	.file	21	"/usr/global/cuda/5.5/bin/..//include/sm_13_double_functions.h"
+	.file	22	"/usr/global/cuda/5.5/bin/..//include/sm_20_atomic_functions.h"
+	.file	23	"/usr/global/cuda/5.5/bin/..//include/sm_32_atomic_functions.h"
+	.file	24	"/usr/global/cuda/5.5/bin/..//include/sm_35_atomic_functions.h"
+	.file	25	"/usr/global/cuda/5.5/bin/..//include/sm_20_intrinsics.h"
+	.file	26	"/usr/global/cuda/5.5/bin/..//include/sm_30_intrinsics.h"
+	.file	27	"/usr/global/cuda/5.5/bin/..//include/sm_32_intrinsics.h"
+	.file	28	"/usr/global/cuda/5.5/bin/..//include/sm_35_intrinsics.h"
+	.file	29	"/usr/global/cuda/5.5/bin/..//include/surface_functions.h"
+	.file	30	"/usr/global/cuda/5.5/bin/..//include/texture_fetch_functions.h"
+	.file	31	"/usr/global/cuda/5.5/bin/..//include/texture_indirect_functions.h"
+	.file	32	"/usr/global/cuda/5.5/bin/..//include/surface_indirect_functions.h"
+	.file	33	"/usr/global/cuda/5.5/bin/..//include/math_functions_dbl_ptx1.h"
+
+
+	.entry normal_pdf_gpu (
+		.param .u64 __cudaparm_normal_pdf_gpu_x,
+		.param .u64 __cudaparm_normal_pdf_gpu_y,
+		.param .u32 __cudaparm_normal_pdf_gpu_n)
+	{
+	.reg .u16 %rh<4>;
+	.reg .u32 %r<10>;
+	.reg .u64 %rd<8>;
+	.reg .f32 %f<31>;
+	.reg .f64 %fd<9>;
+	.reg .pred %p<5>;
+	.loc	14	4	0
+$LDWbegin_normal_pdf_gpu:
+	mov.u16 	%rh1, %nctaid.x;
+	mov.u16 	%rh2, %ctaid.y;
+	mul.wide.u16 	%r1, %rh1, %rh2;
+	cvt.u32.u16 	%r2, %ctaid.x;
+	add.u32 	%r3, %r2, %r1;
+	cvt.u32.u16 	%r4, %ntid.x;
+	mul.lo.u32 	%r5, %r4, %r3;
+	cvt.u32.u16 	%r6, %tid.x;
+	add.u32 	%r7, %r6, %r5;
+	ld.param.u32 	%r8, [__cudaparm_normal_pdf_gpu_n];
+	setp.le.u32 	%p1, %r8, %r7;
+	@%p1 bra 	$Lt_0_2562;
+	.loc	14	8	0
+	cvt.u64.u32 	%rd1, %r7;
+	mul.wide.u32 	%rd2, %r7, 8;
+	ld.param.u64 	%rd3, [__cudaparm_normal_pdf_gpu_x];
+	add.u64 	%rd4, %rd3, %rd2;
+	ld.global.f64 	%fd1, [%rd4+0];
+	mov.f64 	%fd2, 0dbfe0000000000000;	// -0.5
+	mul.f64 	%fd3, %fd1, %fd2;
+	mul.f64 	%fd4, %fd1, %fd3;
+	.loc	16	8936	0
+	cvt.rn.f32.f64 	%f1, %fd4;
+	mov.f32 	%f2, 0f3fb8aa3b;     	// 1.4427
+	mul.f32 	%f3, %f1, %f2;
+	cvt.rzi.f32.f32 	%f4, %f3;
+	mov.f32 	%f5, %f4;
+	mov.f32 	%f6, 0fbf317200;     	// -0.693146
+	mov.f32 	%f7, %f6;
+	mov.f32 	%f8, %f1;
+	mad.f32 %f9, %f5, %f7, %f8;
+	mov.f32 	%f10, %f9;
+	mov.f32 	%f11, %f4;
+	mov.f32 	%f12, 0fb5bfbe8e;    	// -1.42861e-06
+	mov.f32 	%f13, %f12;
+	mov.f32 	%f14, %f10;
+	mad.f32 %f15, %f11, %f13, %f14;
+	mov.f32 	%f16, %f15;
+	.loc	16	8965	0
+	mov.f32 	%f17, 0f3fb8aa3b;    	// 1.4427
+	mul.f32 	%f18, %f16, %f17;
+	mov.f32 	%f19, %f18;
+	ex2.approx.ftz.f32 %f20,%f19;
+	mov.f32 	%f21, %f20;
+	.loc	14	8	0
+	mov.f32 	%f22, 0f7f800000;    	// ((1.0F)/(0.0F))
+	mov.f32 	%f23, 0f00000000;    	// 0
+	ex2.approx.f32 	%f24, %f4;
+	mul.f32 	%f25, %f21, %f24;
+	mov.f32 	%f26, 0fc2d20000;    	// -105
+	setp.lt.f32 	%p2, %f1, %f26;
+	selp.f32 	%f27, %f23, %f25, %p2;
+	mov.f32 	%f28, 0f42d20000;    	// 105
+	setp.gt.f32 	%p3, %f1, %f28;
+	selp.f32 	%f29, %f22, %f27, %p3;
+	cvt.f64.f32 	%fd5, %f29;
+	mov.f64 	%fd6, 0d3fd9884540000000;	// 0.398942
+	mul.f64 	%fd7, %fd5, %fd6;
+	ld.param.u64 	%rd5, [__cudaparm_normal_pdf_gpu_y];
+	add.u64 	%rd6, %rd5, %rd2;
+	st.global.f64 	[%rd6+0], %fd7;
+$Lt_0_2562:
+	.loc	14	9	0
+	exit;
+$LDWend_normal_pdf_gpu:
+	} // normal_pdf_gpu
+

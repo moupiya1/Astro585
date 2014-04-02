@@ -1,0 +1,39 @@
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'git'
+INFO: Nothing to be done
+INFO: METADATA is out-of-date — you may not have the latest version of Distributions
+INFO: Use `Pkg.update()` to get the latest versions of your packages
+exception on 1: ERROR: DenseArray not defined
+ in reload_path at loading.jl:140
+ in _require at loading.jl:58
+ in require at loading.jl:46
+ in reload_path at loading.jl:140
+ in _require at loading.jl:58
+ in require at loading.jl:46
+ in reload_path at loading.jl:140
+ in _require at loading.jl:58
+ in require at loading.jl:43
+ in eval at /gpfs/work/i/install/julia/julia/base/sysimg.jl:4
+ in anonymous at multi.jl:1326
+ in run_work_thunk at multi.jl:575
+ in run_work_thunk at multi.jl:584
+ in anonymous at task.jl:88
+while loading /gpfs/home/mum316/.julia/v0.3/ArrayViews/src/ArrayViews.jl, in expression starting on line 31
+while loading /gpfs/home/mum316/.julia/v0.3/NumericExtensions/src/NumericExtensions.jl, in expression starting on line 3
+while loading /gpfs/home/mum316/.julia/v0.3/Distributions/src/Distributions.jl, in expression starting on line 3
+while loading /gpfs/home/mum316/astro585/Lab7/HW6_Q2_planet_populations_once.jl, in expression starting on line 4
+exception on 1: ERROR: PyPlot not found
+ in require at loading.jl:39
+ in eval at /gpfs/work/i/install/julia/julia/base/sysimg.jl:4
+ in anonymous at multi.jl:1326
+ in run_work_thunk at multi.jl:575
+ in run_work_thunk at multi.jl:584
+ in anonymous at task.jl:88
+while loading /gpfs/home/mum316/astro585/Lab7/HW6_Q2_planet_populations_solutions.jl, in expression starting on line 2
+ERROR: eval_model_on_grid_parallel not defined
+while loading /gpfs/home/mum316/astro585/Lab7/HW7_Q3.jl, in expression starting on line 44
+
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'

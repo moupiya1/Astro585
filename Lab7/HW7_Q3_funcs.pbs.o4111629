@@ -1,0 +1,34 @@
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'git'
+github.com[0: 192.30.252.129]: errno=Connection timed out
+fatal: unable to connect a socket (Connection timed out)
+Warning: imported binding for eta overwritten in module Main
+Warning: imported binding for scale overwritten in module Main
+INFO: Cloning cache of ArrayViews from git://github.com/lindahua/ArrayViews.jl.git
+ERROR: failed process: Process(`git clone -q --mirror git://github.com/lindahua/ArrayViews.jl.git /gpfs/home/mum316/.julia/v0.3/.cache/ArrayViews`, ProcessExited(128)) [128]
+ in pipeline_error at process.jl:476
+ in run at process.jl:453
+ in prefetch at pkg/cache.jl:13
+ in resolve at pkg/entry.jl:388
+ in resolve at pkg/entry.jl:363
+ in edit at pkg/entry.jl:24
+ in anonymous at multi.jl:1308
+
+INFO: METADATA might be out-of-date — you may not have the latest version of Distributions
+INFO: Use `Pkg.update()` to get the latest versions of your packages
+exception on 1: ERROR: Distributions not found
+ in require at loading.jl:39
+ in eval at /gpfs/work/i/install/julia/julia/base/sysimg.jl:4
+ in anonymous at multi.jl:1326
+ in run_work_thunk at multi.jl:575
+ in run_work_thunk at multi.jl:584
+ in anonymous at task.jl:88
+while loading /gpfs/home/mum316/astro585/Lab7/HW6_Q2_planet_populations_once.jl, in expression starting on line 4
+ERROR: days_in_year not defined
+ in eval_model_on_grid_parallel at /gpfs/home/mum316/astro585/Lab7/HW6_Q2_planet_populations_solutions.jl:21
+while loading /gpfs/home/mum316/astro585/Lab7/HW7_Q3.jl, in expression starting on line 44
+
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
+ModuleCmd_Load.c(204):ERROR:105: Unable to locate a modulefile for 'xpdf'
